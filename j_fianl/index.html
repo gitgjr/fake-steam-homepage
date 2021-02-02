@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/buttons.css">
+    </head>
+    <body>
+        <div id="global_header">
+            <!-- <h1>this is header</h1> -->
+            <div id="inner">
+             <div id="logo"><img src="img/globalheader_logo.png" width="174" height="44"></div>
+                <nav class="primary-nav">
+                  <ul>
+                    <li><a href="">ストア</a></li>
+                    <li><a href="">コミュニティ</a></li>
+                    <li><a href="">Steamとは</a></li>
+                    <li><a href="">サポート</a></li>
+                  </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="main">
+            <div class="content">
+                <div class="cross_content" id="introduce">
+                    <ul>
+                    <li><span class="introduce_moji">
+                        <h1>Steam - 究極のオンラインゲーミングプラットフォーム<h1>
+                    </span>
+                    <a class="button button-uppercase button-primary">Download Steam</a>
+                    </li>
+                    <li>
+                        <img src="img/logo.jpg"  srcset="">
+                    </li>
+                    </ul>
+                </div>
+                <div class="title"><h1>What can Steam do</h1></div>
+                <div class="focus" >
+                    <ul>
+                        <li><img src="img/01.jpg" ></li>
+                        <li><img src="img/02.jpg" ></li>
+                        <li><img src="img/03.jpg" ></li>
+                    </ul>
+                    <span class="left">&lt;</span>
+                    <span class="right">&gt;</span>
+                    <ol class="dots">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </div>
+                <div class="title"><h1>Famous games</h1></div>
+                <div class="cross_content" id="games">
+                <ul>
+                    <li class="img_box"><img src="img/witcher3.jpg" width="100%" alt="北方諸国に戦火が吹き荒れるなか、ゲラルトはかつてない重要な仕事を引き受ける――世界のあり様すら変え得るという、生ける兵器〈予言の子〉を見つけ出すのだ。"></li>
+                    <li class="img_box"><img src="img/divinity.jpg" width="100%" height="800px" alt="『Divinity:Original Sin 2』は見下ろし型の古典的CRPGです。本作では５種類の種族（人間、エルフ、ドワーフ、リザードおよびアンデッド）を選択することができる。各種族は固有のスキルと特殊技能を持つ。例えばエルフは他人の肉を摂取することでその記憶にアクセスすることができる。"></li>
+                    <li class="img_box"><img src="img/dota2.jpg" width="100%" alt="ユーザーによって作成されたWarcraft 3 Mod として始まったDota は、オンラインゲームとして世界でもっともプレイされているタイトルの1つにまで成長を遂げました。 Counter-Strike、Day of Defeat、Team Fortress、Portalそして Alien Swarm 同様、Valve がコミュニティのMod を開発者を雇用して、彼らのアイデアを元にしたゲームをValve の開発者チームやアーティストの協力を得ながら完全版を作成する機会を与えたことにより、 Dota 2 が誕生しました。"></li>
+                </ul>
+                </div>
+                <div class="img_and_text">
+                    <div class="img"><img  src="img/hero-vive-cosmos.webp" alt="" srcset=""></divclass="img">
+                    <div class="right_text"><h1>Steam VR</h1><br>Steamコントローラや、HTC Viveを支えるVR技術を使えば、PCでのゲーム体験をより良いものにできます。</div>
+                </div>
+                <div class="img_and_text" id="download-box">
+                    <div class="left_text"><h1>その他いろいろ...</h1>実績、レビュー、個人用にカスタマイズされたおすすめ機能など盛りだくさん。</div>
+                    <a class="button button-3d button-primary button-rounded" id="download">Download now</a>
+                </div>
+                <div class="valve">
+                    <ul>
+                        <li><div><img src="img/popular_alyx.webp" alt=""></div></li>
+                        <li><div><img src="img/dota2-the-international-2018.webp" alt=""></div></li>
+                        <li><div><img src="img/link_controller.webp" alt=""></div></li>
+                        <li class="text"><div >Our games attract millionsand define genres.</div></li>
+                        <li class="text"><div >Our platform connects players with the world's greatest entertainment.</div></li>
+                        <li class="text"><div >Our hardware is a happiness delivery vehicle.</div></li>
+                    </ul>
+                </div>
+                <div class="vertical_content">
+                    <h3>Valveについて</h3>
+                    <p>
+                    Valve's debut title, Half-Life, was released in 1998. It won more than 50 game of the year awards, and PC Gamer even called it the Best PC Game Ever. Since then, we've released dozens of titles that changed the world. Today, millions of people play our games every day.
+                    <a href="https://www.valvesoftware.com/zh-cn/about">more info</a>
+                    </p></div>
+                <div class="vertical_content">
+                    <h3>Be in Touch</h3>
+                    <h4>We want to hear from you!<br><br>Tel: 123-456-7890 | Fax: 123-456-7890<br>500 Terry Francois Street San Francisco, CA 94158</h4>
+                    <form action="email.php" method="POST">
+                        <input class="email"type="text" name="name" value="Name">
+                        <!-- <input class="email"type="text" name="" value="Email"> -->
+                        <input class="email"type="text" name="subject" value="Subject">
+                        <textarea class="email"type="text" name="content"  rows="10">Content</textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <div id="floating_button">
+                <ul>
+                  <li><a><img src="img/erweima.png" width="25%" height="width" ></a></li>
+                  <li><a><img src="img/shezhi.png" width="25%" height="width" ></a></li>
+                  <li><a><img src="img/tupian (1).png" width="25%" height="width" ></a></li>
+                </ul>
+                <a id="btn"><img src="img/tishi.png" width="25%" height="width" ></a>
+            </div>
+        </div>
+        <div id="footer">
+            <address><font color="white">copyright &copy;Made by Kouketsuzen</font></address>
+        </div>
+    </body>
+</html>
